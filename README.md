@@ -18,4 +18,5 @@ The project allows a user to explore the first 6 months of bikeshare use in the 
 * Richard Kalehoff
     - [https://github.com/richardkalehoff](https://github.com/richardkalehoff)
 * Juno Lee
-* Juan Delgado   
+* Juan Delgado
+* Ahmed Gamal   
