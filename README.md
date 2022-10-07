@@ -13,6 +13,7 @@ The project allows a user to explore the first 6 months of bikeshare use in the 
 * Chicago.csv
 * new_york_city.csv
 * washington.csv
+* bikeshare.py
 
 ### Credits
 * Richard Kalehoff
