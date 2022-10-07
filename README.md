@@ -4,7 +4,7 @@
 The projected created on September 4th 2022
 
 ### Project Title
-Exploring Bikeshare Data Using Python
+Bikeshare Data Exploration Using Python Programming
 
 ### Description
 The project allows a user to explore the first 6 months of bikeshare use in the cities of Washington Dc, Chicago and New York and allows the user to filter the data based on time.
