@@ -28,8 +28,7 @@ def get_filters():
         city=(input('\nPlease choose one of the following cities.\nThere three cities to explore. There is Chicago, New York City and Washington. \nPlease type in the name of the city you are interested in:\n')).lower()
 
     # Getting user input for month (all, january, february, ... , june)
-    ui3=input('\nWhich month are you interested in? Please type the FIRST 3 letters of name of the first 6 month e.g Jan, Feb, Mar, Apr, May, Jun or type \"All\" to view every month\'s data\n')
-    months=ui3.title()
+    months=(input('\nWhich month are you interested in? Please type the FIRST 3 letters of name of the first 6 month e.g Jan, Feb, Mar, Apr, May, Jun or type \"All\" to view every month\'s data\n')).title()
     #Months dictionary to compare with user input
     months_dic={'Jan':'January','Feb':'February','Mar':'March','Apr':'April','May':'May','Jun':'June','All':'All'}
 
@@ -38,8 +37,7 @@ def get_filters():
 
     #Using a while loop to handle invalid inputs
     while months not in months_dic:
-        ui4=input('\nPlease enter a valid input.\nWhich month are you interested in? Please type the FIRST 3 letters of name of the month e.g Jan, Feb, Mar, Apr, May, Jun or type \"All\" to view every month\'s data\n')
-        months=ui4.title()
+        months=(input('\nPlease enter a valid input.\nWhich month are you interested in? Please type the FIRST 3 letters of name of the month e.g Jan, Feb, Mar, Apr, May, Jun or type \"All\" to view every month\'s data\n')).title()
 
     month=months_dic[months]
 
